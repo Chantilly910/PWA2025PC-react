@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #ff6ec4, #7873f5);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+/* Login Modal */
+.login-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form {
+  background: #ffffff;
+  color: #000;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.3);
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+}
+
+.login-form h2 {
+  margin-bottom: 1rem;
+}
+
+.login-form input {
+  margin-bottom: 1rem;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.login-form button {
+  background: #7873f5;
+  color: white;
+  border: none;
+  padding: 0.8rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  margin-bottom: 1rem;
+}
+
+/* App Layout */
+.container {
+  max-width: 800px;
+  margin: auto;
+}
+
+.navbar {
+  margin-bottom: 2rem;
+}
+
+.counter-section,
+.tech-section,
+.contact-section {
+  margin-bottom: 2rem;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.tech-card {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1rem;
+  border-radius: 12px;
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+form input, form textarea {
+  width: 100%;
+  margin-bottom: 1rem;
+  padding: 0.6rem;
+  border: none;
+  border-radius: 6px;
+}
+
+form button {
+  padding: 0.6rem 1.2rem;
+  background-color: #ff6ec4;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
